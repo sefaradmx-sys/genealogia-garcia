@@ -54,6 +54,15 @@ a:hover { text-decoration: underline; }
   white-space: pre-wrap;
   font-size: 15px;
 }
+img.acta {
+  width: 100%;
+  max-width: 820px;
+  height: auto;
+  border: 1px solid var(--linea);
+  margin: 12px 0 20px;
+  display: block;
+  background: #fff;
+}
 .pendiente { color: #6b1d1d; font-style: italic; }
 .pie { margin: 40px 0 20px; font-size: 13px; color: #5c4a2e; }
 hr { border: 0; border-top: 1px solid var(--linea); margin: 24px 0; }
