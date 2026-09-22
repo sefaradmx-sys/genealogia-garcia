@@ -40,15 +40,17 @@ h2 {
 .btn b { display: block; font-size: 16px; }
 .btn span { display: block; font-size: 13px; color: #5c4a2e; margin-top: 3px; }
 img.acta {
-  max-width: 420px;
-  max-height: 380px;
-  width: auto;
-  height: auto;
-  object-fit: contain;
+  max-width: 420px; max-height: 380px; width: auto; height: auto;
+  object-fit: contain; border: 1px solid var(--linea);
+  display: block; margin: 0 0 14px; background: #fff;
+}
+iframe.drive {
+  width: 100%;
+  height: 520px;
   border: 1px solid var(--linea);
+  background: var(--blanco);
+  margin: 0 0 18px;
   display: block;
-  margin: 0 0 14px;
-  background: #fff;
 }
 table.datos, table.linea {
   width: 100%; border-collapse: collapse; background: var(--blanco);
