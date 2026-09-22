@@ -1,7 +1,7 @@
 :root {
   --tinta: #1c140c;
-  --papel: #f4ead4;
-  --cartulina: #e8d7b0;
+  --papel: #f3e6c8;
+  --cartulina: #e4d0a4;
   --vino: #6b1d1d;
   --oro: #8a6a2f;
   --linea: #c4ad7a;
@@ -10,105 +10,55 @@
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
 body {
-  font-family: "Georgia", "Times New Roman", serif;
+  font-family: Georgia, "Times New Roman", serif;
   background: var(--papel);
   color: var(--tinta);
   line-height: 1.5;
 }
-a { color: var(--vino); text-decoration: none; }
-a:hover { text-decoration: underline; }
-.top {
-  background: var(--vino);
-  color: #f4ead4;
-  padding: 16px 18px;
-}
-.top small { display: block; opacity: .85; letter-spacing: .1em; text-transform: uppercase; font-size: 11px; }
+a { color: var(--vino); }
+.top { background: var(--vino); color: #f4ead4; padding: 16px 18px; }
+.top small { display: block; letter-spacing: .12em; text-transform: uppercase; font-size: 11px; opacity: .85; }
 .top h1 { margin: 6px 0 0; font-size: 24px; font-weight: normal; }
 .top a { color: #f4ead4; }
-.wrap { max-width: 860px; margin: 0 auto; padding: 18px 16px 40px; }
+.wrap { max-width: 860px; margin: 0 auto; padding: 18px 16px 48px; }
 h2 {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: normal;
-  letter-spacing: .04em;
+  letter-spacing: .06em;
   color: var(--vino);
   border-bottom: 1px solid var(--linea);
   padding-bottom: 6px;
   margin: 28px 0 12px;
 }
-.nota {
-  border-left: 4px solid var(--vino);
-  padding: 10px 14px;
-  background: var(--cartulina);
-  margin: 16px 0;
-  font-size: 15px;
-}
 .gen { margin: 22px 0 10px; font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--oro); }
 .fila { display: flex; flex-wrap: wrap; gap: 10px; }
 .btn {
-  display: block;
-  background: var(--blanco);
-  border: 1px solid var(--linea);
-  padding: 12px 14px;
-  min-width: 200px;
-  flex: 1;
-  color: var(--tinta);
+  display: block; background: var(--blanco); border: 1px solid var(--linea);
+  padding: 12px 14px; min-width: 200px; flex: 1; color: var(--tinta); text-decoration: none;
 }
-.btn:hover { background: var(--cartulina); text-decoration: none; }
+.btn:hover { background: var(--cartulina); }
 .btn b { display: block; font-size: 16px; }
 .btn span { display: block; font-size: 13px; color: #5c4a2e; margin-top: 3px; }
 img.acta {
-  width: 100%;
+  max-width: 420px;
+  max-height: 380px;
+  width: auto;
   height: auto;
+  object-fit: contain;
   border: 1px solid var(--linea);
-  margin: 8px 0 16px;
   display: block;
+  margin: 0 0 14px;
   background: #fff;
 }
 table.datos, table.linea {
-  width: 100%;
-  border-collapse: collapse;
-  background: var(--blanco);
-  margin: 0 0 18px;
-  font-size: 15px;
+  width: 100%; border-collapse: collapse; background: var(--blanco);
+  margin: 0 0 18px; font-size: 15px;
 }
-table.datos th, table.linea th, table.datos td, table.linea td {
-  border: 1px solid var(--linea);
-  padding: 8px 10px;
-  vertical-align: top;
-  text-align: left;
+table.datos th, table.datos td, table.linea th, table.linea td {
+  border: 1px solid var(--linea); padding: 9px 11px; vertical-align: top; text-align: left;
 }
-table.datos th {
-  width: 38%;
-  background: var(--cartulina);
-  font-weight: normal;
-  color: var(--vino);
-}
-table.linea thead th {
-  background: var(--vino);
-  color: #f4ead4;
-  font-weight: normal;
-  letter-spacing: .04em;
-}
+table.datos th { width: 36%; background: var(--cartulina); color: var(--vino); font-weight: normal; }
+table.linea thead th { background: var(--vino); color: #f4ead4; font-weight: normal; }
 table.linea tbody tr:nth-child(even) { background: #f3e6c8; }
-.cuadro {
-  background: var(--blanco);
-  border: 1px solid var(--linea);
-  padding: 0;
-  margin: 0 0 20px;
-}
-.cuadro h3 {
-  margin: 0;
-  padding: 8px 12px;
-  background: var(--vino);
-  color: #f4ead4;
-  font-size: 14px;
-  font-weight: normal;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-}
-.cuadro p {
-  margin: 0;
-  padding: 10px 12px;
-  border-top: 1px solid var(--linea);
-}
-.pie { margin: 36px 0 12px; font-size: 13px; color: #5c4a2e; }
+.nota { border-left: 4px solid var(--vino); background: var(--cartulina); padding: 10px 12px; margin: 12px 0 18px; }
+.pie { margin: 36px 0 8px; font-size: 13px; color: #5c4a2e; }
