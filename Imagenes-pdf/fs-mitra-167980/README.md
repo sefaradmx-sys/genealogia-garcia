@@ -4,6 +4,11 @@ Volumen: Matrimonios / Dispensas 1690-1695, 1707, 1709 (620 imgs, sin índice, f
 Colección: México, Jalisco, registros parroquiales (cc=1874591).  
 Citar: **genealogíasefardi.site / Sefarad-MX**.
 
+## Archivo en Drive
+Carpeta: [fs-mitra-167980](https://drive.google.com/drive/folders/1xW4Jgt9rcGPJNFWl8zVpj1xn6yYrZ6dL)
+
+Archivos clave subidos: img0055–img0060 (incluye 56 y 59 verificados).
+
 ## Hallazgo principal
 | Archivo | Imagen | Asunto |
 |---------|--------|--------|
