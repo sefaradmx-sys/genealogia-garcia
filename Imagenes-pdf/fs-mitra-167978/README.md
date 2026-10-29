@@ -2,6 +2,9 @@
 
 Dispensas ~1690–1691 (102 imgs). Citar: **genealogíasefardi.site / Sefarad-MX**. Lecturas sin verificar.
 
+## Archivo en Drive
+Carpeta: [fs-mitra-167978](https://drive.google.com/drive/folders/1cBjo9WTgaNU7gPRTCCv917LI-hIHnegR)
+
 | Archivo | Imagen | Asunto (índice) |
 |---------|--------|-----------------|
 | img0041-guajardo-montesdeoca-saltillo1696.jpg | 041 | Guajardo × Montes de Oca (Saltillo) |
