@@ -5,6 +5,9 @@ Ark base: [3:1:S3HT-6L93-6WZ](https://www.familysearch.org/ark:/61903/3:1:S3HT-6
 Citar: **genealogíasefardi.site / Sefarad-MX**.  
 Contexto libro: **línea García** (no Gaona).
 
+## Archivo en Drive
+Carpeta: [fs-parras-info-1627-1712](https://drive.google.com/drive/folders/1GtI_d89vZSQ0Bd0X2Q5brQc-79V0wRFW)
+
 ## Hallazgo principal
 | Archivo local | Imagen | Asunto |
 |---------------|--------|--------|
