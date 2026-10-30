@@ -2,7 +2,7 @@
 
 - Repositorio: https://github.com/sefaradmx-sys/genealogia-garcia (rama main, carpeta `actas/`)
 - Total de actas en `actas/`: **746** archivos (sin contar INDICE.md); duplicados conservados por regla.
-- **Las fuentes en Geneanet DEBEN ser los enlaces raw a las imágenes de este repo** (`https://raw.githubusercontent.com/sefaradmx-sys/genealogia-garcia/main/actas/<archivo>`), NO FamilySearch. El enlace “blob” es secundario (página de GitHub).
+- **Las fuentes en Geneanet DEBEN ser SOLO VISTA (se puede ver, no descargar):** usar únicamente páginas HTML — `https://genealogiasefardi.site/archivo-ams/{id}`, `https://genealogiasefardi.site/fuentes/garcia-luis-ramos/` o `https://sefaradmx-sys.github.io/genealogia-garcia/ver/<slug>.html`. **NUNCA** raw.githubusercontent.com ni enlaces directos a .jpg/.png/.pdf. Ver GARCIA-LINE-REBUILD.ged para la URL de cada fuente.
 - Personas mapeadas: **22**. Generado 2026-10-30.
 
 ## CHECKLIST — orden de creación en Geneanet (más antiguo → FJGG)
